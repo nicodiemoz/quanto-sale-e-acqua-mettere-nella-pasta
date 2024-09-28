@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcolo Pasta</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Calcolo Pasta</h1>
+        <form id="pastaForm">
+            <label for="grammiPasta">Grammi di pasta:</label>
+            <input type="number" id="grammiPasta" required>
+            <button type="submit">Calcola</button>
+        </form>
+        <div id="risultati" class="hidden">
+            <h2>Risultati</h2>
+            <p id="litriAcqua"></p>
+            <p id="grammiSale"></p>
+            <p id="tempoBollitura"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
